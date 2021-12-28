@@ -87,9 +87,9 @@ footer .container { display: flex; align-items: flex-end; justify-content: cente
 .footer-social { padding-top: 20px; }
 .contact-form { padding-top: 20px; }
 @keyframes arrow {
-    0% { top: -10px; }
-    50% { top: 0px; }
-    100% { top: -10px; }
+	0% { top: -10px; }
+	50% { top: 0px; }
+	100% { top: -10px; }
 }
 .arrow { animation: arrow infinite 1s; position: relative; }
 
@@ -112,20 +112,16 @@ header { height: 8vh; }
 footer { position: fixed; bottom: 0; left: 0; width: 100%; }
 .tabnavbar { background: #e4edfd; padding-top: 10px; }
 .navbarToggle:after { content: ""; width: 100%; right: -100%; background: #000; position: absolute; top: 0; height: 100%; opacity: 0.4; }
+.page-wrap.innerpage header { height: 10vh; }
+.page-wrap.innerpage .scroll-content { height: 90vh; }
 
-.page-wrap.innerpage header {
-    height:10vh;
-}
-.page-wrap.innerpage .scroll-content {
-    height: 90vh; 
-}
-/*technology*/ 
+/*technology*/
 .shadow.tech h2 { font-style: normal; font-weight: 500; font-size: 14px; line-height: 15px; text-align: center; color: #324148; font-family: 'CabinetGrotesk-Bold'; }
 .shadow.tech { padding: 8px; min-height: 97px; margin-bottom: 5px; height: 100%; max-height: calc(100% - 4px); }
 .shadow.tech figure { height: 50px; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; }
 .shadow.tech img { margin: auto; display: table; }
-.tab-content .listing-page.row > div { padding: 0 5px !important; }
-.tab-content .listing-page.row { margin: 0 -5px; }
+.listing-page.row > div { padding: 0 5px !important; }
+.listing-page.row { margin: 0 -5px; }
 
 /*portfolio page*/
 .leftToggle { width: 99px; }
@@ -150,19 +146,21 @@ footer { position: fixed; bottom: 0; left: 0; width: 100%; }
 .viewPost { background: #E4EDFD; box-shadow: 4px 4px 10px rgba(16, 81, 113, 0.15), -4px -4px 10px rgba(250, 253, 255, 0.9); border-radius: 10px; width: 40px !important; display: inline-block; height: 35px; line-height: 30px; text-align: center; margin-top: 15px; }
 
 /* pagination*/
-.pagination a, ul.pagination span { 
-    min-width: 42px; background: #E4EDFD; 
-    border: 2px solid #F9FBFF; box-sizing: 
-    border-box; 
-    box-shadow: 4px 4px 10px rgba(16, 81, 113, 0.15), -4px -4px 10px rgba(250, 253, 255, 0.9), 
-    inset 4px 4px 10px rgba(8, 68, 97, 0.15), 
-    inset -4px -4px 10px rgba(255, 255, 255, 0.9); 
-    border-radius: 10px; font-family: Inter; 
-    font-style: normal; font-weight: 600; font-size: 12px; line-height: 15px; text-align: center; text-transform: uppercase; color: #000000; display: block; line-height: 34px; margin-right: 10px; padding: 4px 16px; margin-bottom: 10px; }
+.pagination a, ul.pagination span { min-width: 42px; background: #E4EDFD; border: 2px solid #F9FBFF; box-sizing: border-box; box-shadow: 4px 4px 10px rgba(16, 81, 113, 0.15), -4px -4px 10px rgba(250, 253, 255, 0.9), inset 4px 4px 10px rgba(8, 68, 97, 0.15), inset -4px -4px 10px rgba(255, 255, 255, 0.9); border-radius: 10px; font-family: Inter; font-style: normal; font-weight: 600; font-size: 12px; line-height: 15px; text-align: center; text-transform: uppercase; color: #000000; display: block; line-height: 34px; margin-right: 10px; padding: 4px 16px; margin-bottom: 10px; }
 .pagination { margin: 15px 0; flex-wrap: wrap; }
 .pagination span.current { background: linear-gradient(52.13deg, #FB5F47 -6.43%, #FF0784 109.64%); box-shadow: 5px 5px 10px rgba(10, 62, 87, 0.2), -5px -5px 5px #FAFDFF; border-radius: 10px; border-image: linear-gradient(52.13deg, #FB5F47 -6.43%, #FF0784 109.64%); border: 0; color: #fff; }
- 
+
+/*blog*/
+.postImg img, .postImg a { display: block; width: 100%; height: 100%; }
+.postImg { border-radius: 7px; overflow: hidden; }
+.postImg time { background: linear-gradient(90deg, #FB6046 0%, #FF0884 100%); box-shadow: 3px 3px 5px rgba(16, 81, 113, 0.2), -3px -3px 7px rgba(250, 253, 255, 0.2); border-radius: 3px; position: absolute; bottom: 10px; display: flex; align-items: center; padding: 5px 10px; left: 10px; }
+.postImg { position: relative; }
+.postImg time svg { width: 15px; height: 15px; margin-right: 9px; }
+.postImg time p { font-family: Inter; font-style: normal; font-weight: normal; font-size: 13px; line-height: 18px; color: #FFFFFF; }
+.toptitle { display: flex; align-items: center; justify-content: space-between; }
+.toptitle .main-btn.sm { font-family: Inter; font-style: normal; font-weight: 600; font-size: 12px; line-height: 15px; text-align: center; text-transform: uppercase; color: #FFFFFF; max-width: 160px; padding: 15px 11px; }
+
 /*responisve*/
 @media(max-width:480px) {
-    a.text-left h2 { font-size: 17px; }
+	a.text-left h2 { font-size: 17px; }
 }
