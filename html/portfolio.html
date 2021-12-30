@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Detail- Future Profilez</title>
+    <title>Future Profilez</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="application-name" content="Future Profilez" />
     <meta name="apple-mobile-web-app-title" content="Future Profilez" />
@@ -19,9 +19,10 @@
 </head>
 
 <body>
-    <div class="page-wrap innerpage">
+    <div class="page-wrap innerpage"> 
         <header class="pt-3 pb-2">
             <div class="container d-flex justify-content-between align-items-center">
+                <div class="leftToggle">
                 <div class="mobile-toggle">
                     <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="18.75" height="2" rx="1" transform="matrix(1 0 0 -1 1 10)" fill="#121212" />
@@ -29,8 +30,9 @@
                         <rect width="12" height="2" rx="1" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 9.89954 16)" fill="#121212" />
                     </svg>
                 </div>
-                <div class="logo">
-                    <img src="img/fp-logo.svg" class="img-fluid" alt="logo">
+                </div>
+                <div class="page-title">
+                    <h2>Portfolio</h2>
                 </div>
                 <div class="callnow">
                     <a href="tel:123456789">
@@ -45,21 +47,84 @@
             </div>
         </header>
         <!-- scroll content -->
-        <div class="scroll-content ">
-            <!-- detailpage -->
-            <div class="content-page pt-3">
-                <div class="container">
-                    <div class="toptitle pb-4">
-                        <h2>Web Design</h2>
-                        <a href="#" class="main-btn sm">View Portfolio</a>
-                    </div>
-                    <p>Web designing makes use of distinguished skills and disciplines for the production and maintenance of websites. The various brackets of web design include web graphic design, interface design, authoring, including standardised code and proprietary software, user experience design (UX), and SEO (Search Engine Optimization).</p>
-                    <p>Future Profilez merges a strategic and thoughtful approach to digital presentation of images, graphics and content to provide a booming online identity for your business. With the right mix of intuition, innovation, creativity, sensibility, ease and psychological control, our fresh web designs will keep the clients enamoured to your online platform.</p>
-                    <p>We truly believe in the future, a future where complete digitalization has made everything migrate to online pastures, and our unique and attractive designs will then make the decisive difference for your business, and making your potential customers incline towards your online brand.</p>
-                    <p>We invite you to glance at our premium web design based solutions, the ‘BMW’, displayed below.</p>
-                    <a href="#" class="main-btn mt-2">VIEW PORTFOLIO</a>
-                </div>
+        <div class="tabbing-nav scroll-content ">
+            <div class="sticky-top tabnavbar pb-0">
+               <div class="sliderPages">
+                   <ul>
+                       <li><a class="active" href="#">All</a></li>
+                       <li><a  href="#">Core php</a></li>
+                       <li><a  href="#">ecommerce</a></li>
+                       <li><a  href="#">Cake PHP</a></li>
+                       <li><a  href="#">web design</a></li>
+                       <li><a  href="#">Mobile Development</a></li>
+                   </ul>
+               </div>
             </div>
+
+            <!-- postlist --> 
+           <div class="postlist"> 
+               <div class="container">
+                   <div class="row">
+                       <div class="col-6">
+                           <div class="post-box">
+                               <div class="postImg">
+                                   <a href="#"><img src="img/post-1.png" class="img-fluid" alt="images"></a>
+                               </div>
+                               <div class="post-text">
+                                   <h2><a href="#">postlist</a></h2>
+                                   <p>This is a job portal website which allows candidates to our clients.</p>
+                                   <a href="#" class="viewPost">
+                                     <img src="img/postlink.svg" class="img-fluid" alt="image">
+                                   </a>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-6">
+                           <div class="post-box">
+                               <div class="postImg">
+                                   <a href="#"><img src="img/post-1.png" class="img-fluid" alt="images"></a>
+                               </div>
+                               <div class="post-text">
+                                   <h2><a href="#">postlist</a></h2>
+                                   <p>This is a job portal website which allows candidates to our clients.</p>
+                                   <a href="#" class="viewPost">
+                                     <img src="img/postlink.svg" class="img-fluid" alt="image">
+                                   </a>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-6">
+                           <div class="post-box">
+                               <div class="postImg">
+                                   <a href="#"><img src="img/post-1.png" class="img-fluid" alt="images"></a>
+                               </div>
+                               <div class="post-text">
+                                   <h2><a href="#">postlist</a></h2>
+                                   <p>This is a job portal website which allows candidates to our clients.</p>
+                                   <a href="#" class="viewPost">
+                                     <img src="img/postlink.svg" class="img-fluid" alt="image">
+                                   </a>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-6">
+                           <div class="post-box">
+                               <div class="postImg">
+                                   <a href="#"><img src="img/post-1.png" class="img-fluid" alt="images"></a>
+                               </div>
+                               <div class="post-text">
+                                   <h2><a href="#">postlist</a></h2>
+                                   <p>This is a job portal website which allows candidates to our clients.</p>
+                                   <a href="#" class="viewPost">
+                                     <img src="img/postlink.svg" class="img-fluid" alt="image">
+                                   </a>
+                               </div>
+                           </div>
+                       </div>
+
+                   </div>
+               </div>
+           </div>
         </div>
         <!-- footer -->
         <footer>
@@ -108,6 +173,7 @@
             </div>
         </div>
     </div>
+
     <!-- Return to Top -->
     <a href="javascript:" id="return-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i>Back</a>
     <!-- JavaScript -->
