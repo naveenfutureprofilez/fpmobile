@@ -126,7 +126,9 @@ footer { position: fixed; bottom: 0; left: 0; width: 100%; }
 /*portfolio page*/
 .leftToggle { width: 99px; }
 .page-title h2 { font-family: 'CabinetGrotesk-Bold'; font-style: normal; font-weight: bold; font-size: 22px; line-height: 27px; text-align: center; color: #324148; }
-
+.toogleClose svg {
+    margin-bottom: 8px;
+}
 /*sliderbar*/
 .sliderPages li a { background: #E4EDFD; border: 2px solid #F9FBFF; box-sizing: border-box; box-shadow: 4px 4px 10px rgba(16, 81, 113, 0.15), -4px -4px 10px rgba(250, 253, 255, 0.9), inset 4px 4px 10px rgba(8, 68, 97, 0.15), inset -4px -4px 10px rgba(255, 255, 255, 0.9); border-radius: 10px; padding: 12px 20px; font-family: Inter; font-style: normal; font-weight: 600; font-size: 12px; line-height: 15px; text-align: center; text-transform: uppercase; color: #000000; display: block; white-space: nowrap; min-width: 90px; }
 .sliderPages ul { display: flex; flex-wrap: nowrap; }
